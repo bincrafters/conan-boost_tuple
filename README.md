@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Tuple](https://github.com/Boostorg/Tuple) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Tuple%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Tuple%3Abincrafters).
 
 ## For Users: Use this package
 
