@@ -3,8 +3,8 @@ from conans import ConanFile, tools, os
 class BoostTupleConan(ConanFile):
     name = "Boost.Tuple"
     version = "1.64.0"
-    generators = "txt"
-    url = "https://github.com/boostorg/tuple"
+    url = "https://github.com/bincrafters/conan-boost-tuple"
+    source_url = "https://github.com/boostorg/tuple"
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_name = "tuple"
@@ -15,7 +15,7 @@ class BoostTupleConan(ConanFile):
  
     def source(self):
         self.run("git clone --depth=50 --branch=boost-{0} {1}.git"
-                 .format(self.version, self.url))
+                 .format(self.version, self.source_url))
 
     def package(self):
         include_dir = os.path.join(self.build_folder, self.lib_short_name, "include")
