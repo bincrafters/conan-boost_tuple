@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostTupleConan(ConanFile):
     name = "boost_tuple"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-tuple"
+    url = "https://github.com/bincrafters/conan-boost_tuple"
 
     lib_short_names = ["tuple"]
     is_header_only = True
