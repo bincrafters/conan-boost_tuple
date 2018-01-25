@@ -8,7 +8,8 @@ class BoostTupleConan(ConanFile):
     name = "boost_tuple"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_tuple"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["tuple"]
     is_header_only = True
 
