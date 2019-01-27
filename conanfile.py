@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostTupleConan(base.BoostBaseConan):
     name = "boost_tuple"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_tuple"
     lib_short_names = ["tuple"]
     header_only_libs = ["tuple"]
